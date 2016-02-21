@@ -1,11 +1,12 @@
 require 'pry'
 
-  puts("what is your age?")
+  puts("what is your age, please?")
   user_age = gets.strip
   if user_age >= ('21')
     puts("Yay, have a beer!")
   elsif user_age < ('21')
     puts("Nay, don't have a beer")
+
   end
 
 
